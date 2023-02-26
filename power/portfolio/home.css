@@ -1,0 +1,86 @@
+*{
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+font-family: Josefin Sans, sans-serif;
+}
+
+.content{
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+   /* background-color: rgb(27, 24, 24);*/
+    background-image:url("https://quotement.com/wp-content/uploads/2022/09/200-Most-Toxic-Instagram-Captions-To-Show-Your-Dark-Side.jpg")
+}
+
+.home{
+    position: absolute;
+    top: 10%;
+    left: 8%;
+}
+
+.main{
+    right: 20px;
+    background-color: #f9004d;
+    color: white;
+    border: 1px solid transparent;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px 25px;
+    border-radius: 30px;
+    transition: transform .4s;
+    
+}
+
+span{
+    color:#f9004d ;
+}
+
+h1{
+    color: white;
+    margin: 20px 0px 20px;
+    font-size: 75px;
+}
+
+h3{
+    color: white;
+    font-size:25px ;
+    margin-bottom: 50px;
+}
+
+h4{
+    letter-spacing: 2px;
+    font-size: 20px;
+    color: white;
+}
+
+.newsletter form{
+    width: 300px;
+    max-width: 100%;
+    position: relative;
+}
+
+.newsletter form input:first-child{
+    display: inline-block;
+    width: 100%;
+    padding: 14px 0px 14px 5px;
+    border: 2px solid #f9004d;
+    outline: none;
+    border-radius: 30px;
+    padding-left: 30px;
+}
+
+.newsletter form input:last-child{
+    position: absolute;
+    display: inline-block;
+    outline: none;
+    border: none;
+    padding: 10px 30px;
+    border-radius: 30px;
+    background-color: #f9004d;
+    color: white;
+    box-shadow: px 0px 5px #000, 0px 0px 15px #858585;
+    top: 6px;
+    right: 6px;
+}

@@ -1,0 +1,76 @@
+body{
+  background-color: rgb(51, 49, 49);
+  display: flex;
+  flex-direction: column;
+}
+
+.center{
+  position: absolute;
+  top: 10%;
+  left: 5%;
+}
+
+#list{
+  width: 70%;
+  height: 10px;
+  padding: 10px;
+  border-radius: 20px;
+  border: none;
+}
+
+#list1{
+  height: 7px;
+  padding-bottom: 25px;
+  border-radius: 10px;
+  border: none;
+  color: rgb(235, 8, 204); ;
+}
+
+.box{
+  color:#e8dded ;
+  border-radius: 30px;
+  width: 500px;
+  height: 40px;
+  margin-bottom: 20px;
+}
+
+div.items{
+  color: white;
+  width: 80%;
+  display: block;
+  background-color: black;
+  border: none;
+  border-radius: 20px;
+  padding: 15px;
+  margin: 10px;
+  height: 20px;
+}
+
+input{
+  background-color: rgb(17, 15, 15);
+  color: white;
+  font-size: 15px;
+  height: 20px;
+}
+
+div.list{
+  width: 70px;
+}
+
+div.edit{
+  position: relative;
+  left: 300px;
+  bottom: 40px;
+  color: red;
+}
+
+div.delete{
+  position: relative;
+  left: 340px;
+  bottom: 57px;
+  color: rgb(235, 8, 204);
+}
+
+li{
+  display: inline;
+}
