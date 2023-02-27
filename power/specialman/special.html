@@ -52,33 +52,43 @@
         <div class="image">
           <img src="https://media.discordapp.net/attachments/1077953018584125510/1078249085104041995/regpic.png?width=640&height=427" alt="family pic">
         </div>
-        <div class="details">
-          <h1>Create Account</h1>
-          <form class="my-form">
-            <div class="input-icons">
-                <label for="fname">First Name </label> 
-                <input name="fname" type="text" id="fname" placeholder="Enter First Name" />
-
-                <label for="lname">Last Name </label> 
-                <input name="lname" type="text" id="lname" placeholder="Enter Last Name"/>
-
-                <label for="phone">Phone Number </label> 
-                <input name="phone" type="number" id="phone" placeholder="Enter Phone" />
-
-                <label for="email">Email Address </label> 
-                <input name="email" type="email" id="email" placeholder="Enter Email Address" />
-
-                <label for="pwd">Password </label> 
-                <input name="pwd" type="password" id="pwd" placeholder="Enter Password" />
-                <a href="#" class="btn">Sign up</a>
-             </div>
-
-              
-         </form>
+          
+          <div class="container">
+            <form id="form" action="/">
+              <h1>Create Account</h1>
+                <div class="input-control">
+                    <label for="firstname">First Name</label>
+                    <input id="firstname" name="firstname" type="text" placeholder="First Name">
+                    <div class="error"></div>
+                </div>
+                <div class="input-control">
+                  <label for="lastname">Last Name</label>
+                  <input id="lastname" name="lastname" type="text" placeholder="Last Name">
+                  <div class="error"></div>
+              </div>
+              <div class="input-control">
+                <label for="phoneNumber">Phone Number</label>
+                <input id="tel"name="phoneNumber" type="tel" placeholder="Enter Phone">
+                <div class="error"></div>
+            </div>
+                <div class="input-control">
+                    <label for="email">Email</label>
+                    <input id="email" name="email" type="text" placeholder="Enter Email Address">
+                    <div class="error"></div>
+                </div>
+                <div class="input-control">
+                    <label for="password">Password</label>
+                    <input id="password"name="password" type="password" placeholder="Enter Password">
+                    <div class="error"></div>
+                </div>
+                
+                <button type="submit">Sign Up</button>
+            </form>
         </div>
-      </div>
+        </div>
 
      </div>
+     <script src="./special.js"></script>
 
 </body>
 </html>
